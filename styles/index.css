@@ -4,7 +4,6 @@ body {
 	display: flex;
     align-items: center;
     justify-content: center;
-    background-color: black;
 }
 
 .space {
@@ -18,7 +17,6 @@ body {
 }
 
 .container {
-    font-size: 10px;
     position: absolute;
     top: 250px;
     left: 750px;
@@ -222,7 +220,7 @@ img {
 .pluto {
     position: absolute;
     border-style: solid;
-    border-color: white transparent transparent transparent;
+    border-color: ghostwhite transparent transparent transparent;
     border-width: 1px 1px;
     border-radius: 50%;
 }
@@ -237,10 +235,10 @@ img {
 .uranus:before,
 .neptune:before,
 .pluto:before{
-    content: '';
+    content: "";
     position: absolute;
     border-radius: 50%;
-    animation: orbit 30s linear infinite;
+    /*animation: orbit 30s linear infinite;*/
 }
 
 @keyframes orbit {
